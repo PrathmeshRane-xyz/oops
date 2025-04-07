@@ -1,0 +1,20 @@
+public class Calculator {
+
+   
+    public void printSum(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    
+    public void printSum(double a, double b) {
+        System.out.println(a + b);
+    }
+
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+
+       
+        calc.printSum(5, 10);       
+        calc.printSum(5.5, 10.5);   
+    }
+}
